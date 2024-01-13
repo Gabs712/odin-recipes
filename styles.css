@@ -1,0 +1,29 @@
+body {
+  font-family: cursive;
+  background-color: lightgreen;
+  color: rgb(124, 0, 177);
+}
+
+h1 {
+  color: rgb(255, 95, 59);
+}
+
+h2 {
+  color: rgb(255, 151, 24);
+}
+
+a {
+  color: rgb(77, 77, 251);
+}
+
+ol li::marker {
+  color: rgb(255, 54, 54);
+}
+
+ul li::marker {
+  color: rgb(255, 98, 98);
+}
+
+img {
+  height: 500px;
+}
