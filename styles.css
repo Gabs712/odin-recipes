@@ -26,6 +26,5 @@ ul li::marker {
 
 img {
   height: 500px;
-  padding: 12px;
-  background-color: cornflowerblue;
+  border: 10px cornflowerblue solid;
 }
