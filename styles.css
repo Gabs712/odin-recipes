@@ -1,15 +1,38 @@
-body {
-  font-family: "comic sans ms", cursive;
-  background-color: #e1ff51;
-  color: rgb(124, 0, 177);
+* {
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "comic sans ms", cursive;
+  background-color: #4dd972;
+  color: rgb(80 35 210);
+  margin: 0;
+}
+
+.card{   
+  width: 750px;
+  margin: 25px auto;
+  background-color: rgb(153 230 72);
+  padding: 15px 24px;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+}
+
+img {
+  display: block;
+  width: 640px;
+  margin: auto;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 25%);
+
+}  
+
 h1 {
-  color: rgb(255, 95, 59);
+  text-align: center;
+  margin: 0 0 12px 0;
+  color: #f51111;
 }
 
 h2 {
-  color: rgb(255, 151, 24);
+  color: rgb(241 118 1);
 }
 
 a {
@@ -22,9 +45,4 @@ ol li::marker {
 
 ul li::marker {
   color: rgb(255, 98, 98);
-}
-
-img {
-  height: 500px;
-  border: 10px cornflowerblue solid;
 }
